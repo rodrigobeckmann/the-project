@@ -26,8 +26,8 @@ export default function Mario({ marioInitialPosition, pseudoFps, marioRef, colli
     useEffect(() => {
         setXAxis(xAxisToSet);
         setYAxis(yAxisToSet);
-        setXAxisTo(xAxisToSet);
-        setYAxisTo(yAxisToSet);
+        // setXAxisTo(xAxisToSet);
+        // setYAxisTo(yAxisToSet);
     }, [])
 
 
@@ -38,7 +38,7 @@ export default function Mario({ marioInitialPosition, pseudoFps, marioRef, colli
     const [isRuning, setIsRuning] = useState(false);
     const [xAxis, setXAxis] = useState(0);
     const [xAxisTo, setXAxisTo] = useState(0);
-    const [yAxisTo, setYAxisTo] = useState(0);
+    // const [yAxisTo, setYAxisTo] = useState(0);
     const [yAxis, setYAxis] = useState(0);
     const [scriptScene, setScriptScene] = useState(0);
     const [isJumpingIn, setIsJumpingIn] = useState(false);
