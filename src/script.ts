@@ -9,6 +9,22 @@ const script: Script[] = [
         distance: 30,
     },
     {
+        movType: 'turn',
+        distance: 0,
+    },
+    {
+        movType: 'run',
+        distance: 30,
+    },
+    {
+        movType: 'turn',
+        distance: 0,
+    },
+    {
+        movType: 'run',
+        distance: 30,
+    },
+    {
         movType: 'jumpIn',
         distance: 60,
     },
